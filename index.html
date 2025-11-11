@@ -4,69 +4,45 @@
 <head>
 <title>Matteus Froese</title>
 
-<style>
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-'header header header'
-'main main right'
-'main main right';
-  gap: 10px;
-  padding: 10px;
-  grid-template-rows: 80px 200px 200px;
-}
-
-.grid-container > div {
-  font-family:garamond
-}
-
-.item1 { grid-area: header; background-color: #EF60AD; text-align: center; }
-.item2 { grid-area: main; font-family:garamond; font-size: 17px; }
-.item3 { grid-area: right; font-family:garamond; font-size: 17px; }
-</style>
+<link rel="stylesheet" href="main.css">
 
 </head>
 
 <body>
 
-<div class="grid-container">
-
-<div class="item1">
+<div id="header">
 <h1>Matteus Froese</h1>
 </div>
 
-<div class="item3">
-<img src="portrait.jpg" alt="Portrait" width=400" height="376">
+<hr>
+
+<div id="navigation">
+<a class="current" href="index.html">Home</a>
+ | 
+<a href="research.html">Research</a>
+ | 
+<a href="seminars.html">Combinatorics meets Topology Seminar</a>
+ | 
+<a href="personal.html">Personal</a>
 </div>
 
-<div class="item2">
+<hr>
+
+<img src="portrait.jpg" alt="Portrait" width=35%" style="float:right;" hspace="30">
+
 <p>I'm a Masters Student at the 
 <a href="https://uwaterloo.ca/">University of Waterloo</a> in the  
 <a href="https://uwaterloo.ca/combinatorics-and-optimization/">Department of Combinatorics and Optimization</a>. <br>
 I am being jointly supervised by 
 <a href="https://www.math.uwaterloo.ca/~kayeats/">Karen Yeats</a> and
-<a href="https://michaelborinsky.com/#">Michael Borinsky</a>. <br>
+<a href="https://michaelborinsky.com/#">Michael Borinsky</a>. <br><br>
 You can contact me using my email: mjfroese@uwaterloo.ca
 </p>
 
-</br>
 <p>
-My research interests are broadly in the intersection of combinatorics and topology. Currently I am working on some combinatorial quantum field theory stuff, in particular studying graph complexes through the lens of matroid theory.
-</p>
-</br>
-<h3>Research</h3>
-<p>
-I have done very little research, as I am only a first year masters student. However, there was a cute result that I proved as a bonus question in one of my undergraduate classes. Here it is: <br><br>
-An exceptional equinumerosity of lattice paths and Young tableaux (with Liam Ayres, Evan Bialo, Aidan Cook, Alwin Chen, Erica Liu, Maryam Mohammadi Yekta, Oliver Pechenik, and Benjamin Wong)<br>
-<i>Journal of Integer Sequences</i>, to appear, 2025, 7 pages.<br>
-arXiv:<a href="https://arxiv.org/abs/2506.03116">2506.03116</a>
-<br><br>
-I will (hopefully) be sure to update this list as I do more research!
+My research interests are broadly in the intersection of combinatorics and topology. Currently I am working on combinatorial quantum field theory, in particular studying graph complexes through the lens of matroid theory.
 </p>
 
-</div>
-</div>
 </body>
 </html>
 

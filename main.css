@@ -1,0 +1,41 @@
+body {
+  font-family: Garamond; 
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 6em;
+  font-size: 18px;
+  background-color: #f4f4f4;
+}
+
+
+#header {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#navigation {
+    background-color: #EF60AD;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+}
+
+
+div#navigation a {
+    background-color: #EF60AD;
+    color: #000000;
+    padding: 0.3em;
+    line-height: 200%;
+}
+
+img[Attributes Style] {
+    width: 35%;
+    margin-left: 30px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
